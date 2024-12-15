@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "dashboard": "Dashboard",
+    "record-video": "Record video",
+    "videos": "Videos"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "videos": "Videos",
+    "settings": "Settings"
+  },
+  "videos": {
+    "upload": "Upload",
+    "status": {
+      "detected": "Detected",
+      "undetected": "Undetected"
+    },
+    "uploaded-date": "Uploaded Date",
+    "delete-video": "Delete Video",
+    "delete-video-confirmation": "Are you sure about this action?",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "upload-video": "Upload a video",
+    "save": "Save",
+    "recorder": {
+      "cancel": "Cancel",
+      "upload": "Upload",
+      "turn-on-camera": "Press to turn on camera",
+      "start-recording": "Press to start recording"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "equipment-list": "Lista de materiales",
+    "operartions": "Operaciones",
+    "export": "Exportar",
+    "permissions": "Permisos"
+  },
+  "tables": {
+    "title": "Materiales",
+    "columns": {
+      "material-code": "Código de material",
+      "name": "Nombre",
+      "description": "Descripción",
+      "price-per-unit": "Precio por unidad",
+      "value": "Valor",
+      "unit": "Unidad"
+    }
+  },
+  "add": "Agregar nuevo material",
+  "material-form": {
+    "general-information": "Información general",
+    "name": "Nombre",
+    "description": "Descripción",
+    "value": "Valor",
+    "price-per-unit": "Precio por unidad",
+    "unit": "Unidad",
+    "back-to-material-list": "Volver a la lista de materiales",
+    "edit-material": "Editar material",
+    "add-material": "Agregar material",
+
+    "errors": {
+      "name-invalid": "El nombre es incorrecto",
+      "description-invalid": "La descripción es incorrecta",
+      "value-invalid": "El valor es incorrecto",
+      "price-invalid": "El precio es incorrecto",
+      "unit-invalid": "La unidad es inválida"
+    }
+  },
+  "material-units": {
+    "gr": "GR",
+    "kg": "KG",
+    "ton": "TON"
+  }
+}

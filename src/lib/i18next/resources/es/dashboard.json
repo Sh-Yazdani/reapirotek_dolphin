@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "dashboard": "Panel de control",
+    "tasks": "Tus tareas"
+  },
+  "weather": {
+    "title": "El tiempo en {{city}}",
+    "error": "Error al cargar tu ubicación"
+  }
+}

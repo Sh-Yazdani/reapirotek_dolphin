@@ -1,0 +1,135 @@
+{
+  "online-employees-sidebar": {
+    "title": "Online users",
+    "cta": "Online users"
+  },
+  "navbar": {
+    "employees-list": "Employees list",
+    "operartions": "Operations",
+    "export": "Export",
+    "roles": "Roles",
+    "permissions": "Permissions"
+  },
+  "genders": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "tables": {
+    "columns": {
+      "id": "ID",
+      "employee-code": "Employee Code",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "email": "Email",
+      "role": "Role",
+      "name": "Name",
+      "description": "Description"
+    },
+    "permissions": {
+      "title": "Users"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "add": "Add Role"
+  },
+  "add": "Add New Employee",
+  "employee-form": {
+    "personal-information": "Personal information",
+    "first-name": "First name",
+    "last-name": "Last name",
+    "gender": "Gender",
+    "national-id": "National ID",
+    "contact-information": "Contact Information",
+    "email": "Email",
+    "telephone": "Telephone",
+    "mobile": "Mobile",
+    "address": "Address",
+    "other": "Other",
+    "role": "Role",
+    "description": "Description",
+    "profile": "Profile",
+    "profile-picture-helps": "A profile picture helps personalize your account",
+    "back-to-employee-list": "Back to Employee list",
+    "edit-employee": "Edit employee",
+    "add-employee": "Add employee",
+
+    "errors": {
+      "first-name-invalid": "First name is incorrect",
+      "last-name-invalid": "Last name is incorrect",
+      "gender-invalid": "Gender is incorrect",
+      "national-id-invalid": "National ID is incorrect",
+      "email-invalid": "Email is incorrect",
+      "mobile-invalid": "Telephone is incorrect",
+      "role-invalid": "Role is incorrect"
+    }
+  },
+  "role-form": {
+    "role": "Role",
+    "role-name": "Role Name",
+    "role-description": "Role Description",
+    "permissions": "Permissions",
+    "entity": "Entity",
+    "uncheck-all": "Uncheck All",
+    "check-all": "Check All",
+    "save": "Save",
+
+    "errors": {
+      "name-invalid": "Name is incorrect",
+      "description-invalid": "Description is incorrect",
+      "permission-name-invalid": "Permission name is incorrect",
+      "permission-description-invalid": "Permission description is incorrect"
+    }
+  },
+  "role-modification-form": {
+    "user-permissions": "{{userName}} Permissions",
+    "entity": "Entity",
+    "column-read-blacklist": "Column READ blacklist",
+    "column-write-blacklist": "Column WRITE blacklist",
+    "choose-columns": "Choose Columns",
+    "save": "Save",
+
+    "errors": {
+      "permission-name-invalid": "Name is incorrect",
+      "permission-description-invalid": "Description is incorrect"
+    }
+  },
+  "marital-status": {
+    "single": "Single",
+    "married": "Married",
+    "divorced": "Divorced"
+  },
+  "profile-form": {
+    "first-name": "First Name",
+    "last-name": "Last Name",
+    "employee-code": "Employee Code",
+    "gender": "Gender",
+    "email": "Email",
+    "telephone": "Telephone",
+    "mobile": "Mobile",
+    "date-of-birth": "Date of Birth",
+    "marital-status": "Marital status",
+    "role": "Role",
+    "job": "Job",
+    "last-activity": "Last activity",
+    "national-id": "National ID",
+    "years-of-experience": "Years of experience",
+    "address": "Address",
+    "skill-description": "Skill Description",
+    "description": "Description",
+    "save": "Save",
+
+    "errors": {
+      "first-name-invalid": "Invalid first name",
+      "last-name-invalid": "Invalid last name",
+      "gender-invalid": "Invalid gender",
+      "email-invalid": "Invalid email address",
+      "email-required": "Invalid email address",
+      "mobile-invalid": "Invalid mobile",
+      "address-invalid": "Invalid address",
+      "marital-status-invalid": "Invalid Marital Status",
+      "job-invalid": "Invalid job"
+    }
+  }
+}

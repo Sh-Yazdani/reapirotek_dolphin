@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "projects": "Projects",
+    "user-management": "User management",
+    "equipment": "Equipment",
+    "materials": "Materials",
+    "daily-logs": "Daily logs",
+    "crew-time-card": "Crew Time Card",
+    "reports": "Reports",
+    "task": "Tasks",
+    "dark-mode": "Dark Mode",
+    "light-mode": "Light Mode",
+    "setting": "Setting",
+    "logout": "Log out"
+  }
+}

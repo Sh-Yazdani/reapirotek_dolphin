@@ -1,0 +1,19 @@
+{
+  "export": "Export",
+  "title": "Crew Time Card",
+  "funnel": {
+    "all-projects": "All Projects"
+  },
+  "table": {
+    "headers": {
+      "employee": "Employee",
+      "time-card-day": "Time Card Day",
+      "start": "Start",
+      "finish": "Finish",
+      "total-hours": "Total Hours",
+      "ot-pay-rate": "OT Pay Rate",
+      "wage-rate": "Wage Rate",
+      "total": "Total"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "edit-profile": "editar perfil",
+    "notifications": "notificación"
+  },
+  "notifications": {
+    "navbar": {
+      "all": "Todos",
+      "unread": "No leídos",
+      "read": "Leídos"
+    }
+  }
+}

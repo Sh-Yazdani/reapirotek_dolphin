@@ -1,0 +1,40 @@
+{
+  "navbar": {
+    "equipment-list": "Equipment list",
+    "operartions": "Operations",
+    "export": "Export",
+    "permissions": "Permissions"
+  },
+  "tables": {
+    "columns": {
+      "equipment-code": "Equipment Code",
+      "name": "Name",
+      "model": "Model",
+      "description": "Description",
+      "price-per-hour": "Price per hour",
+      "count": "Count"
+    }
+  },
+  "equipment-form": {
+    "general-information": "General information",
+    "name": "Name",
+    "model": "Model",
+    "manufacturer": "Manufacturer",
+    "description": "Description",
+    "price-per-hour": "Price per hour",
+    "count": "Count",
+    "vin": "VIN",
+    "vrm": "VRM",
+    "back-to-equipment-list": "Back to Equipment list",
+    "edit-equipment": "Edit Equipment",
+    "add-equipment": "Add Equipment",
+
+    "errors": {
+      "name-invalid": "Name is incorrect",
+      "model-invalid": "Model is incorrect",
+      "manufacturer-required": "Manufacturer is required",
+      "vin-length": "VIN must be a maximum of 17 characters long"
+    }
+  },
+  "add": "Add New Equipment"
+}

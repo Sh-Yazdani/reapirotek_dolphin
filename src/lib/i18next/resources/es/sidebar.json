@@ -1,0 +1,17 @@
+{
+  "sidebar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "user-management": "Gestión de usuarios",
+    "equipment": "Equipos",
+    "materials": "Materiales",
+    "daily-logs": "Registros diarios",
+    "crew-time-card": "Tarjeta de horas del equipo",
+    "reports": "Informes",
+    "task": "Tareas",
+    "dark-mode": "Modo oscuro",
+    "light-mode": "Modo claro",
+    "setting": "Configuración",
+    "logout": "Cerrar sesión"
+  }
+}

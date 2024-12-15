@@ -1,0 +1,19 @@
+{
+  "export": "Exportar",
+  "title": "Tarjeta de Tiempo de Tripulación",
+  "funnel": {
+    "all-projects": "Todos los Proyectos"
+  },
+  "table": {
+    "headers": {
+      "employee": "Empleado",
+      "time-card-day": "Día de Tarjeta de Tiempo",
+      "start": "Inicio",
+      "finish": "Fin",
+      "total-hours": "Horas Totales",
+      "ot-pay-rate": "Tarifa de Pago de Horas Extras",
+      "wage-rate": "Tarifa de Salario",
+      "total": "Total"
+    }
+  }
+}

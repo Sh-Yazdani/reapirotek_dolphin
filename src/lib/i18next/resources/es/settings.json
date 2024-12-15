@@ -1,0 +1,41 @@
+{
+  "location": {
+    "title": "Servicios de ubicación",
+    "status": {
+      "pending": "Los permisos de servicios de ubicación están pendientes.",
+      "blocked": "Los servicios de ubicación están bloqueados.",
+      "enabled": "Los servicios de ubicación están habilitados."
+    },
+    "instructions": {
+      "blocked": "Restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "revoke": "Para revocar el permiso de servicios de ubicación, restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "title": "Información"
+    }
+  },
+  "notifications": {
+    "title": "Configuración de notificaciones",
+    "status": {
+      "pending": "Las notificaciones están pendientes.",
+      "blocked": "Las notificaciones están bloqueadas.",
+      "enabled": "Las notificaciones están habilitadas."
+    },
+    "instructions": {
+      "blocked": "Restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "revoke": "Para revocar el permiso de servicios de notificación, restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "title": "Información"
+    }
+  },
+  "camera": {
+    "title": "Configuración de la cámara",
+    "status": {
+      "pending": "El acceso a la cámara está pendiente.",
+      "blocked": "El acceso a la cámara está bloqueado.",
+      "enabled": "El acceso a la cámara está habilitado."
+    },
+    "instructions": {
+      "blocked": "Restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "revoke": "Para revocar el permiso de acceso a la cámara, restablece la configuración de permisos del navegador y vuelve a cargar la página.",
+      "title": "Información"
+    }
+  }
+}

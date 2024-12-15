@@ -1,0 +1,56 @@
+{
+  "navbar": {
+    "all-tasks": "Todas las tareas"
+  },
+  "add-task-modal": {
+    "title": "Título",
+    "description": "Descripción",
+    "add-task": "Agregar Tarea",
+    "add-new-task": "Agregar Nueva Tarea"
+  },
+  "edit-task-form": {
+    "title": "Título",
+    "description": "Descripción",
+    "priority": "Prioridad",
+    "status": "Estado",
+    "assignees": "Asignados",
+    "tags": "Etiquetas",
+    "due-date": "Fecha de vencimiento",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+
+    "errors": {
+      "title-invalid": "Título inválido",
+      "description-invalid": "Descripción inválida"
+    }
+  },
+  "tag-options": {
+    "bug": "Error",
+    "change": "Cambio",
+    "issue": "Problema",
+    "meeting": "Reunión",
+    "request": "Solicitud",
+    "risk": "Riesgo",
+    "ticket": "Ticket"
+  },
+  "priority-options": {
+    "critical": "Crítico",
+    "very-high": "Muy alto",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo",
+    "very-low": "Muy bajo"
+  },
+  "columns": {
+    "todo": "Por hacer",
+    "doing": "En progreso",
+    "done": "Hecho"
+  },
+  "add-task": "Agregar Tarea",
+  "delete-task-popconfirm": {
+    "title": "Eliminar tarea",
+    "description": "Estás seguro de esta acción?",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  }
+}

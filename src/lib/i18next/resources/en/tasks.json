@@ -1,0 +1,62 @@
+{
+  "navbar": {
+    "all-tasks": "All tasks"
+  },
+  "add-task-modal": {
+    "title": "Title",
+    "description": "Description",
+    "add-task": "Add Task",
+    "add-new-task": "Add New Task",
+
+    "errors": {
+      "title-invalid": "Invalid title",
+      "description-invalid": "Invalid description",
+      "project-invalid": "Invalid Project"
+    }
+  },
+  "edit-task-form": {
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "status": "Status",
+    "assignees": "Assignees",
+    "tags": "Tags",
+    "due-date": "Due Date",
+    "cancel": "Cancel",
+    "save": "Save",
+
+    "errors": {
+      "title-invalid": "Invalid title",
+      "description-invalid": "Invalid description"
+    }
+  },
+  "tag-options": {
+    "bug": "Bug",
+    "change": "Change",
+    "issue": "Issue",
+    "meeting": "Meeting",
+    "request": "Request",
+    "risk": "Risk",
+    "ticket": "Ticket"
+  },
+  "priority-options": {
+    "critical": "Critical",
+    "very-high": "Very High",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "very-low": "Very Low"
+  },
+  "columns": {
+    "todo": "Todo",
+    "doing": "Doing",
+    "done": "Done"
+  },
+  "add-task": "Add Task",
+  "delete-task-popconfirm": {
+    "title": "Delete task",
+    "description": "Are you sure about this action?",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  }
+}

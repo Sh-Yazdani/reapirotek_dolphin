@@ -1,0 +1,135 @@
+{
+  "online-employees-sidebar": {
+    "title": "Usuarios en línea",
+    "cta": "Usuarios en línea"
+  },
+  "navbar": {
+    "employees-list": "Lista de empleados",
+    "operations": "Operaciones",
+    "export": "Exportar",
+    "roles": "Roles",
+    "permissions": "Permisos"
+  },
+  "genders": {
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro"
+  },
+  "tables": {
+    "columns": {
+      "id": "ID",
+      "employee-code": "Código de Empleado",
+      "first-name": "Nombre",
+      "last-name": "Apellido",
+      "email": "Correo Electrónico",
+      "role": "Rol",
+      "name": "Nombre",
+      "description": "Descripción"
+    },
+    "permissions": {
+      "title": "Usuarios"
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "add": "Agregar Rol"
+  },
+  "add": "Agregar Nuevo Empleado",
+  "employee-form": {
+    "personal-information": "Información Personal",
+    "first-name": "Nombre",
+    "last-name": "Apellido",
+    "gender": "Género",
+    "national-id": "Cédula Nacional",
+    "contact-information": "Información de Contacto",
+    "email": "Correo Electrónico",
+    "telephone": "Teléfono",
+    "mobile": "Móvil",
+    "address": "Dirección",
+    "other": "Otros",
+    "role": "Rol",
+    "description": "Descripción",
+    "profile": "Perfil",
+    "profile-picture-helps": "Una foto de perfil ayuda a personalizar tu cuenta",
+    "back-to-employee-list": "Volver a la Lista de Empleados",
+    "edit-employee": "Editar Empleado",
+    "add-employee": "Agregar Empleado",
+
+    "errors": {
+      "first-name-invalid": "El nombre es incorrecto",
+      "last-name-invalid": "El apellido es incorrecto",
+      "gender-invalid": "El género es incorrecto",
+      "national-id-invalid": "El ID nacional es incorrecto",
+      "email-invalid": "El correo electrónico es incorrecto",
+      "mobile-invalid": "El teléfono es incorrecto",
+      "role-invalid": "El rol es incorrecto"
+    }
+  },
+  "role-form": {
+    "role": "Rol",
+    "role-name": "Nombre del Rol",
+    "role-description": "Descripción del Rol",
+    "permissions": "Permisos",
+    "entity": "Entidad",
+    "uncheck-all": "Desmarcar Todos",
+    "check-all": "Marcar Todos",
+    "save": "Guardar",
+
+    "errors": {
+      "name-invalid": "El nombre es incorrecto",
+      "description-invalid": "La descripción es incorrecta",
+      "permission-name-invalid": "El nombre de la permisión es incorrecto",
+      "permission-description-invalid": "La descripción de la permisión es incorrecta"
+    }
+  },
+  "role-modification-form": {
+    "user-permissions": "{{userName}} Permisos",
+    "entity": "Entidad",
+    "column-read-blacklist": "Lista negra de lectura de columnas",
+    "column-write-blacklist": "Lista negra de escritura de columnas",
+    "choose-columns": "Elegir Columnas",
+    "save": "Guardar",
+
+    "errors": {
+      "permission-name-invalid": "El nombre de la permisión es incorrecto",
+      "permission-description-invalid": "La descripción de la permisión es incorrecta"
+    }
+  },
+  "marital-status": {
+    "single": "Soltero",
+    "married": "Casado",
+    "divorced": "Divorciado"
+  },
+  "profile-form": {
+    "first-name": "Nombre",
+    "last-name": "Apellido",
+    "employee-code": "Código de empleado",
+    "gender": "Género",
+    "email": "Correo electrónico",
+    "telephone": "Teléfono",
+    "mobile": "Móvil",
+    "date-of-birth": "Fecha de nacimiento",
+    "marital-status": "Estado civil",
+    "role": "Rol",
+    "job": "Trabajo",
+    "last-activity": "Última actividad",
+    "national-id": "Identificación nacional",
+    "years-of-experience": "Años de experiencia",
+    "address": "Dirección",
+    "skill-description": "Descripción de habilidades",
+    "description": "Descripción",
+    "save": "Guardar",
+
+    "errors": {
+      "first-name-invalid": "Nombre inválido",
+      "last-name-invalid": "Apellido inválido",
+      "gender-invalid": "Género inválido",
+      "email-invalid": "Dirección de correo electrónico inválida",
+      "email-required": "Dirección de correo electrónico inválida",
+      "mobile-invalid": "Número de teléfono inválido",
+      "address-invalid": "Dirección inválida",
+      "marital-status-invalid": "Estado civil inválido",
+      "job-invalid": "Trabajo inválido"
+    }
+  }
+}

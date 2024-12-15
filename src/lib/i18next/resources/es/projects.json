@@ -1,0 +1,123 @@
+{
+  "status": {
+    "all": "Todos",
+    "pre-construction": "Pre construcción",
+    "initiation": "Iniciación",
+    "in-progress": "En progreso",
+    "completed": "Completado"
+  },
+  "measure-unit": {
+    "centimetre": "Centímetro",
+    "inch": "Pulgada",
+    "meter": "Metro",
+    "foot": "Pie"
+  },
+  "info": {
+    "navbar": {
+      "info": "Información",
+      "employees": "Empleados",
+      "gallery": "Galería",
+      "equipment": "Equipo",
+      "materials": "Materiales",
+      "chart": "Gráfico",
+      "tasks": "Tareas"
+    }
+  },
+  "navbar": {
+    "projects-list": "Lista de proyectos",
+    "operartions": "Operaciones",
+    "export": "Exportar"
+  },
+  "tables": {
+    "status": {
+      "title": "Estado del proyecto"
+    },
+    "columns": {
+      "id": "ID",
+      "project-code": "Código del Proyecto",
+      "title": "Título",
+      "progress": "Progreso",
+      "value": "Valor",
+      "zone": "Zona",
+      "status": "Estado",
+      "issue-date": "Fecha de Emisión"
+    }
+  },
+  "project-form": {
+    "general-information": "Información general",
+    "title": "Título",
+    "zone": "Zona",
+    "area-length": "Longitud del área",
+    "area-width": "Ancho del área",
+    "area-height": "Altura del área",
+    "measure-unit": "Unidad de medida",
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "status": "Estado",
+    "description": "Descripción",
+    "back-to-projects-list": "Volver a la lista de proyectos",
+    "save-project": "Guardar proyecto",
+    "add-project": "Añadir proyecto",
+
+    "errors": {
+      "title-invalid": "El título es incorrecto",
+      "zone-id-invalid": "El ID de la zona es incorrecto",
+      "area-length-invalid": "La longitud del área es incorrecta",
+      "area-width-invalid": "El ancho del área es incorrecto",
+      "area-height-invalid": "La altura del área es incorrecta"
+    }
+  },
+  "add": "Añadir nuevo proyecto",
+  "project-details": {
+    "project-name": "Nombre del proyecto:",
+    "project-code": "Código del proyecto:",
+    "zone": "Zona:",
+    "area-length": "Longitud del área:",
+    "area-width": "Ancho del área:",
+    "area-height": "Altura del área:",
+    "latitude": "Latitud:",
+    "longitude": "Longitud:",
+    "issue-date": "Fecha de emisión:",
+    "status": "Estado:",
+    "description": "Descripción:",
+    "project-information": "Información del proyecto"
+  },
+  "project-gallery": {
+    "title": "Galería del proyecto",
+    "subject": "Asunto:",
+    "project-code": "Código del proyecto:",
+    "created-by": "Creado por:",
+    "zone": "Zona:",
+    "date-time": "Fecha y hora:",
+    "description": "Descripción:"
+  },
+  "charts": {
+    "time": {
+      "title": "Tiempo",
+      "datasets": {
+        "ahead": "Adelantado",
+        "on-time": "A tiempo",
+        "behind": "Atrasado"
+      }
+    },
+    "cost": {
+      "title": "Costo",
+      "datasets": {
+        "actual": "Real",
+        "planned": "Presupuestado"
+      }
+    },
+    "workload": {
+      "title": "Carga de trabajo",
+      "datasets": {
+        "completed": "Completado",
+        "remaining": "Pendiente",
+        "overdue": "Vencido"
+      }
+    }
+  },
+  "tasks": {
+    "title": "Tareas del proyecto",
+    "back": "Volver a la lista de proyectos"
+  }
+}

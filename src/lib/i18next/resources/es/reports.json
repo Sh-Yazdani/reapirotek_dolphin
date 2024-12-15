@@ -1,0 +1,45 @@
+{
+  "navbar": {
+    "reports-list": "Lista de informes",
+    "operartions": "Operaciones",
+    "export": "Exportar",
+    "permissions": "Permisos"
+  },
+  "tables": {
+    "columns": {
+      "id": "ID",
+      "title": "Título",
+      "date": "Fecha",
+      "time": "Hora"
+    }
+  },
+  "subjects": {
+    "all": "Todos",
+    "daily": "Diario",
+    "equipment-damage": "Daño de equipo",
+    "employee-accident": "Accidente de empleado",
+    "other": "Otro"
+  },
+  "report-form": {
+    "equipment-code": "Código de Equipo",
+    "employee-code": "Código de Empleado",
+    "edit-report": "Editar Informe",
+    "add-report": "Agregar Informe",
+    "title": "Título",
+    "subject": "Asunto",
+    "project-code": "Código de Proyecto",
+    "date-and-time-of-report": "Fecha y Hora del Informe",
+    "description": "Descripción",
+    "back-to-report-list": "Volver a la Lista de Informes",
+
+    "errors": {
+      "title-invalid": "El título es incorrecto",
+      "subject-invalid": "El asunto es inválido",
+      "project-code-invalid": "El código del proyecto es inválido",
+      "files-invalid": "Los archivos son inválidos",
+      "employee-code-invalid": "Valor inválido",
+      "equipment-code-invalid": "Valor inválido"
+    }
+  },
+  "add": "Agregar Nuevo Informe"
+}

@@ -1,0 +1,123 @@
+{
+  "status": {
+    "all": "All",
+    "pre-construction": "Pre Construction",
+    "initiation": "Initiation",
+    "in-progress": "In Progress",
+    "completed": "Completed"
+  },
+  "measure-unit": {
+    "centimetre": "Centimetre",
+    "inch": "Inch",
+    "meter": "Meter",
+    "foot": "Foot"
+  },
+  "info": {
+    "navbar": {
+      "info": "Info",
+      "employees": "Employees",
+      "gallery": "Gallery",
+      "equipment": "Equipment",
+      "materials": "Materials",
+      "chart": "Chart",
+      "tasks": "Tasks"
+    }
+  },
+  "navbar": {
+    "projects-list": "Projects list",
+    "operartions": "Operations",
+    "export": "Export"
+  },
+  "tables": {
+    "status": {
+      "title": "Project status"
+    },
+    "columns": {
+      "id": "ID",
+      "project-code": "Project Code",
+      "title": "Title",
+      "progress": "Progress",
+      "value": "Value",
+      "zone": "Zone",
+      "status": "Status",
+      "issue-date": "Issue Date"
+    }
+  },
+  "project-form": {
+    "general-information": "General Information",
+    "title": "Title",
+    "zone": "Zone",
+    "area-length": "Area Length",
+    "area-width": "Area Width",
+    "area-height": "Area Height",
+    "measure-unit": "Measure Unit",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "status": "Status",
+    "description": "Description",
+    "back-to-projects-list": "Back to Projects list",
+    "save-project": "Save project",
+    "add-project": "Add project",
+
+    "errors": {
+      "title-invalid": "Title is incorrect",
+      "zone-id-invalid": "Zone ID is incorrect",
+      "area-length-invalid": "Area length is incorrect",
+      "area-width-invalid": "Area width is incorrect",
+      "area-height-invalid": "Area height is incorrect"
+    }
+  },
+  "add": "Add new project",
+  "project-details": {
+    "project-name": "Project Name:",
+    "project-code": "Project Code:",
+    "zone": "Zone:",
+    "area-length": "Area length:",
+    "area-width": "Area Width:",
+    "area-height": "Area Height:",
+    "latitude": "Latitude:",
+    "longitude": "Longitude:",
+    "issue-date": "Issue Date:",
+    "status": "Status:",
+    "description": "Description:",
+    "project-information": "Project information"
+  },
+  "project-gallery": {
+    "title": "Project gallery",
+    "subject": "Subject:",
+    "project-code": "Project Code:",
+    "created-by": "Created by:",
+    "zone": "Zone:",
+    "date-time": "Date Time:",
+    "description": "Description:"
+  },
+  "charts": {
+    "time": {
+      "title": "Time",
+      "datasets": {
+        "ahead": "Ahead",
+        "on-time": "On Time",
+        "behind": "Behind"
+      }
+    },
+    "cost": {
+      "title": "Cost",
+      "datasets": {
+        "actual": "Actual",
+        "planned": "Planned"
+      }
+    },
+    "workload": {
+      "title": "Workload",
+      "datasets": {
+        "completed": "Completed",
+        "remaining": "Remaining",
+        "overdue": "Overdue"
+      }
+    }
+  },
+  "tasks": {
+    "title": "Project tasks",
+    "back": "Back to projects list"
+  }
+}

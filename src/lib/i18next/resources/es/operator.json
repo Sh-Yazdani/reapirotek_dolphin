@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "dashboard": "Panel de control",
+    "record-video": "Grabar video",
+    "videos": "Videos"
+  },
+  "sidebar": {
+    "dashboard": "Panel de control",
+    "videos": "Videos",
+    "settings": "Configuraciones"
+  },
+  "videos": {
+    "upload": "Subir",
+    "status": {
+      "detected": "Detectado",
+      "undetected": "No detectado"
+    },
+    "uploaded-date": "Fecha de subida",
+    "delete-video": "Eliminar video",
+    "delete-video-confirmation": "¿Estás seguro de esta acción?",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "upload-video": "Subir un video",
+    "save": "Guardar",
+    "recorder": {
+      "cancel": "Cancelar",
+      "upload": "Subir",
+      "turn-on-camera": "Presiona para encender la cámara",
+      "start-recording": "Presiona para iniciar la grabación"
+    }
+  }
+}

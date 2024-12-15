@@ -1,0 +1,35 @@
+{
+  "title": "Registros Diarios",
+  "export": "Exportar",
+  "table": {
+    "headers": {
+      "project": "Proyecto",
+      "address": "Dirección",
+      "job-type": "Tipo de Trabajo",
+      "prepared-by": "Preparado por",
+      "date": "Fecha",
+      "weather": "Clima",
+      "work": "Trabajo",
+      "crew": "Tripulación",
+      "id": "ID",
+      "type": "Tipo",
+      "name": "Nombre",
+      "hours": "Horas",
+      "used": "Utilizado",
+      "remaining": "Restante",
+      "equipment": "Equipo",
+      "materials": "Materiales",
+      "delivered": "Entregado",
+      "scheduled": "Programado",
+      "description": "Descripción",
+      "time": "Tiempo",
+      "actual": "Actual",
+      "delays": "Retrasos",
+      "issue": "Problema",
+      "employee-accident": "Accidente de Empleado",
+      "equipment-damage": "Daño de Equipo",
+      "task": "Tarea",
+      "status": "Estado"
+    }
+  }
+}

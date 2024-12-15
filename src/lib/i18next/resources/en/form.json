@@ -1,0 +1,13 @@
+{
+  "form-file-uploader": {
+    "browse-files": "Browse files",
+    "drag-and-drop-files-here": "Drag and drop files here",
+    "file-size-limit-exceeded": {
+      "title": "File size limit exceeded",
+      "description": "Some files couldn't be uploaded due to their size, file size should be lower than 15MB"
+    }
+  },
+  "validation-errors": {
+    "normal-string-schema": "Must only contain letters and spaces"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "dashboard": "Dashboard",
+    "tasks": "Your tasks"
+  },
+  "weather": {
+    "title": "Weather in {{city}}",
+    "error": "Error in loading your location"
+  }
+}

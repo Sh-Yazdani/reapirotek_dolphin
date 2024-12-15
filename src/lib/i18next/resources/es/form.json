@@ -1,0 +1,13 @@
+{
+  "form-file-uploader": {
+    "browse-files": "Buscar archivos",
+    "drag-and-drop-files-here": "Arrastra y suelta archivos aquí",
+    "file-size-limit-exceeded": {
+      "title": "Límite de tamaño de archivo excedido",
+      "description": "Algunos archivos no pudieron ser subidos debido a su tamaño, el tamaño del archivo debe ser menor a 15MB"
+    }
+  },
+  "validation-errors": {
+    "normal-string-schema": "Debe contener solo letras y espacios"
+  }
+}

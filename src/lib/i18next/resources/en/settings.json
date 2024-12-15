@@ -1,0 +1,41 @@
+{
+  "location": {
+    "title": "Location services",
+    "status": {
+      "pending": "Location service permissions are pending.",
+      "blocked": "Location services are blocked.",
+      "enabled": "Location services are enabled."
+    },
+    "instructions": {
+      "blocked": "Please reset browser permission settings and reload the page.",
+      "revoke": "To revoke location services permission, please reset browser permission settings and reload the page.",
+      "title": "Info"
+    }
+  },
+  "notifications": {
+    "title": "Notification Settings",
+    "status": {
+      "pending": "Notifications are pending.",
+      "blocked": "Notifications are blocked.",
+      "enabled": "Notifications are enabled."
+    },
+    "instructions": {
+      "blocked": "Please reset browser permission settings and reload the page.",
+      "revoke": "To revoke notification services permission, please reset browser permission settings and reload the page.",
+      "title": "Info"
+    }
+  },
+  "camera": {
+    "title": "Camera Settings",
+    "status": {
+      "pending": "Camera access is pending.",
+      "blocked": "Camera access is blocked.",
+      "enabled": "Camera access is enabled."
+    },
+    "instructions": {
+      "blocked": "Please reset browser permission settings and reload the page.",
+      "revoke": "To revoke camera access permission, please reset browser permission settings and reload the page.",
+      "title": "Info"
+    }
+  }
+}

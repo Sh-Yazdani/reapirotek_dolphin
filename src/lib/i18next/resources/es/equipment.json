@@ -1,0 +1,40 @@
+{
+  "navbar": {
+    "equipment-list": "Lista de empleados",
+    "operartions": "Operaciones",
+    "export": "Exportar",
+    "permissions": "Permisos"
+  },
+  "tables": {
+    "columns": {
+      "equipment-code": "Código de Equipo",
+      "name": "Nombre",
+      "model": "Modelo",
+      "description": "Descripción",
+      "price-per-hour": "Precio por hora",
+      "count": "Cantidad"
+    }
+  },
+  "equipment-form": {
+    "general-information": "Información general",
+    "name": "Nombre",
+    "model": "Modelo",
+    "manufacturer": "Fabricante",
+    "description": "Descripción",
+    "price-per-hour": "Precio por hora",
+    "count": "Cantidad",
+    "vin": "VIN",
+    "vrm": "VRM",
+    "back-to-equipment-list": "Volver a la lista de equipo",
+    "edit-equipment": "Editar equipo",
+    "add-equipment": "Agregar equipo",
+
+    "errors": {
+      "name-invalid": "El nombre es incorrecto",
+      "model-invalid": "El modelo es incorrecto",
+      "manufacturer-required": "El fabricante es obligatorio",
+      "vin-length": "El VIN debe tener un máximo de 17 caracteres"
+    }
+  },
+  "add": "Agregar nuevo equipo"
+}

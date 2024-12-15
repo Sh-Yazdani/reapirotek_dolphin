@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "reports-list": "Reports list",
+    "operartions": "Operations",
+    "export": "Export",
+    "permissions": "Permissions"
+  },
+  "tables": {
+    "columns": {
+      "id": "ID",
+      "title": "Title",
+      "date": "Date",
+      "time": "Time"
+    }
+  },
+  "subjects": {
+    "all": "All",
+    "daily": "Daily",
+    "equipment-damage": "Equipment damage",
+    "employee-accident": "Employee accident",
+    "other": "Other"
+  },
+  "report-form": {
+    "equipment-code": "Equipment Code",
+    "employee-code": "Employee Code",
+    "edit-report": "Edit Report",
+    "add-report": "Add Report",
+    "title": "Title",
+    "subject": "Subject",
+    "project-code": "Project Code",
+    "date-and-time-of-report": "Date and Time of Report",
+    "description": "Description",
+    "back-to-report-list": "Back to Report List",
+    "errors": {
+      "title-invalid": "Title is incorrect",
+      "subject-invalid": "Subject is invalid",
+      "project-code-invalid": "Project code is invalid",
+      "files-invalid": "Files are invalid",
+      "employee-code-invalid": "Invalid value",
+      "equipment-code-invalid": "Invalid value"
+    }
+  },
+  "add": "Add New Report"
+}

@@ -1,0 +1,522 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "OpenWeatherMap API",
+    "description": "API documentation for OpenWeatherMap weather data",
+    "version": "2.5"
+  },
+  "host": "api.openweathermap.org",
+  "basePath": "/data/2.5",
+  "schemes": ["https"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/weather": {
+      "get": {
+        "summary": "Get current weather data",
+        "description": "Retrieve current weather information for a specific location by city name, city ID, geographic coordinates, or zip code.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "City name, state code, and country code divided by comma (e.g., 'London,uk'), or city ID, or zip code",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "City ID",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "lat",
+            "in": "query",
+            "description": "Latitude",
+            "required": false,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "lon",
+            "in": "query",
+            "description": "Longitude",
+            "required": false,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "zip",
+            "in": "query",
+            "description": "Zip code",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "Your OpenWeatherMap API key",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "units",
+            "in": "query",
+            "description": "Units for temperature (standard, metric, or imperial)",
+            "required": false,
+            "type": "string",
+            "enum": ["standard", "metric", "imperial"]
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "description": "Language code for response translation (e.g., 'en', 'es', 'fr', 'de')",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "schema": {
+              "$ref": "#/definitions/WeatherData"
+            }
+          },
+          "401": {
+            "description": "Invalid API key"
+          },
+          "404": {
+            "description": "Location not found"
+          }
+        }
+      }
+    },
+    "/forecast": {
+      "get": {
+        "summary": "Get 5-day weather forecast",
+        "description": "Retrieve a 5-day weather forecast for a specific city.",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "City name, state code, and country code divided by comma",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "description": "City ID",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "lat",
+            "in": "query",
+            "description": "Latitude",
+            "required": false,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "lon",
+            "in": "query",
+            "description": "Longitude",
+            "required": false,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "zip",
+            "in": "query",
+            "description": "Zip code",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "Your OpenWeatherMap API key",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "units",
+            "in": "query",
+            "description": "Units for temperature (standard, metric,            imperial)",
+            "required": false,
+            "type": "string",
+            "enum": ["standard", "metric", "imperial"]
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "description": "Language code for response translation (e.g., 'en', 'es', 'fr', 'de')",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "schema": {
+              "$ref": "#/definitions/ForecastData"
+            }
+          },
+          "401": {
+            "description": "Invalid API key"
+          },
+          "404": {
+            "description": "Location not found"
+          }
+        }
+      }
+    },
+    "/onecall": {
+      "get": {
+        "summary": "Get current weather, hourly forecast, and daily forecast",
+        "description": "Retrieve comprehensive weather data for a specific location using latitude and longitude.",
+        "parameters": [
+          {
+            "name": "lat",
+            "in": "query",
+            "description": "Latitude",
+            "required": true,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "lon",
+            "in": "query",
+            "description": "Longitude",
+            "required": true,
+            "type": "number",
+            "format": "float"
+          },
+          {
+            "name": "exclude",
+            "in": "query",
+            "description": "Exclude specific weather data blocks (e.g., 'current,minutely,hourly,daily,alerts')",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "appid",
+            "in": "query",
+            "description": "Your OpenWeatherMap API key",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "units",
+            "in": "query",
+            "description": "Units for temperature (standard, metric, or imperial)",
+            "required": false,
+            "type": "string",
+            "enum": ["standard", "metric", "imperial"]
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "description": "Language code for response translation",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "schema": {
+              "$ref": "#/definitions/OneCallData"
+            }
+          },
+          "401": {
+            "description": "Invalid API key"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "WeatherData": {
+      "type": "object",
+      "properties": {
+        "coord": {
+          "type": "object",
+          "properties": {
+            "lon": {"type": "number"},
+            "lat": {"type": "number"}
+          }
+        },
+        "weather": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {"type": "integer"},
+              "main": {"type": "string"},
+              "description": {"type": "string"},
+              "icon": {"type": "string"}
+            }
+          }
+        },
+        "base": {"type": "string"},
+        "main": {
+          "type": "object",
+          "properties": {
+            "temp": {"type": "number"},
+            "feels_like": {"type": "number"},
+            "temp_min": {"type": "number"},
+            "temp_max": {"type": "number"},
+            "pressure": {"type": "integer"},
+            "humidity": {"type": "integer"}
+          }
+        },
+        "visibility": {"type": "integer"},
+        "wind": {
+          "type": "object",
+          "properties": {
+            "speed": {"type": "number"},
+            "deg": {"type": "integer"}
+          }
+        },
+        "clouds": {
+          "type": "object",
+          "properties": {
+            "all": {"type": "integer"}
+          }
+        },
+        "dt": {"type": "integer"},
+        "sys": {
+          "type": "object",
+          "properties": {
+            "type": {"type": "integer"},
+            "id": {"type": "integer"},
+            "country": {"type": "string"},
+            "sunrise": {"type": "integer"},
+            "sunset": {"type": "integer"}
+          }
+        },
+        "timezone": {"type": "integer"},
+        "id": {"type": "integer"},
+        "name": {"type": "string"},
+        "cod": {"type": "integer"}
+      }
+    },
+    "ForecastData": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "object",
+          "properties": {
+            "id": {"type": "integer"},
+            "name": {"type": "string"},
+            "coord": {
+              "type": "object",
+              "properties": {
+                "lon": {"type": "number"},
+                "lat": {"type": "number"}
+              }
+            },
+            "country": {"type": "string"},
+            "population": {"type": "integer"},
+            "timezone": {"type": "integer"},
+            "sunrise": {"type": "integer"},
+            "sunset": {"type": "integer"}
+          }
+        },
+        "list": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dt": {"type": "integer"},
+              "main": {
+                "type": "object",
+                "properties": {
+                  "temp": {"type": "number"},
+                  "feels_like": {"type": "number"},
+                  "temp_min": {"type": "number"},
+                  "temp_max": {"type": "number"},
+                  "pressure": {"type": "integer"},
+                  "humidity": {"type": "integer"}
+                }
+              },
+              "weather": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "integer"},
+                    "main": {"type": "string"},
+                    "description": {"type": "string"},
+                    "icon": {"type": "string"}
+                  }
+                }
+              },
+              "clouds": {
+                "type": "object",
+                "properties": {
+                  "all": {"type": "integer"}
+                }
+              },
+              "wind": {
+                "type": "object",
+                "properties": {
+                  "speed": {"type": "number"},
+                  "deg": {"type": "integer"}
+                }
+              },
+              "dt_txt": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "OneCallData": {
+      "type": "object",
+      "properties": {
+        "lat": {"type": "number"},
+        "lon": {"type": "number"},
+        "timezone": {"type": "string"},
+        "timezone_offset": {"type": "integer"},
+        "current": {
+          "type": "object",
+          "properties": {
+            "dt": {"type": "integer"},
+            "sunrise": {"type": "integer"},
+            "sunset": {"type": "integer"},
+            "temp": {"type": "number"},
+            "feels_like": {"type": "number"},
+            "pressure": {"type": "integer"},
+            "humidity": {"type": "integer"},
+            "dew_point": {"type": "number"},
+            "uvi": {"type": "number"},
+            "clouds": {"type": "integer"},
+            "visibility": {"type": "integer"},
+            "wind_speed": {"type": "number"},
+            "wind_deg": {"type": "integer"},
+            "weather": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {"type": "integer"},
+                  "main": {"type": "string"},
+                  "description": {"type": "string"},
+                  "icon": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "hourly": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dt": {"type": "integer"},
+              "temp": {"type": "number"},
+              "feels_like": {"type": "number"},
+              "pressure": {"type": "integer"},
+              "humidity": {"type": "integer"},
+              "dew_point": {"type": "number"},
+              "uvi": {"type": "number"},
+              "clouds": {"type": "integer"},
+              "visibility": {"type": "integer"},
+              "wind_speed": {"type": "number"},
+              "wind_deg": {"type": "integer"},
+              "weather": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "integer"},
+                    "main": {"type": "string"},
+                    "description": {"type": "string"},
+                    "icon": {"type": "string"}
+                  }
+                }
+              },
+              "pop": {"type": "number"}
+            }
+          }
+        },
+        "daily": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dt": {"type": "integer"},
+              "sunrise": {"type": "integer"},
+              "sunset": {"type": "integer"},
+              "moonrise": {"type": "integer"},
+              "moonset": {"type": "integer"},
+              "moon_phase": {"type": "number"},
+              "temp": {
+                "type": "object",
+                "properties": {
+                  "day": {"type": "number"},
+                  "min": {"type": "number"},
+                  "max": {"type": "number"},
+                  "night": {"type": "number"},
+                  "eve": {"type": "number"},
+                  "morn": {"type": "number"}
+                }
+              },
+              "feels_like": {
+                "type": "object",
+                "properties": {
+                  "day": {"type": "number"},
+                  "night": {"type": "number"},
+                  "eve": {"type": "number"},
+                  "morn": {"type": "number"}
+                }
+              },
+              "pressure": {"type": "integer"},
+              "humidity": {"type": "integer"},
+              "dew_point": {"type": "number"},
+              "wind_speed": {"type": "number"},
+              "wind_deg": {"type": "integer"},
+              "weather": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {"type": "integer"},
+                    "main": {"type": "string"},
+                    "description": {"type": "string"},
+                    "icon": {"type": "string"}
+                  }
+                }
+              },
+              "clouds": {"type": "integer"},
+              "pop": {"type": "number"},
+              "uvi": {"type": "number"}
+            }
+          }
+        },
+        "alerts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "sender_name": {"type": "string"},
+              "event": {"type": "string"},
+              "start": {"type": "integer"},
+              "end": {"type": "integer"},
+              "description": {"type": "string"},
+              "tags": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

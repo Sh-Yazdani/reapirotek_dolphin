@@ -1,0 +1,35 @@
+{
+  "title": "Daily logs",
+  "export": "Export",
+  "table": {
+    "headers": {
+      "project": "Project",
+      "address": "Address",
+      "job-type": "Job Type",
+      "prepared-by": "Prepared By",
+      "date": "Date",
+      "weather": "Weather",
+      "work": "Work",
+      "crew": "Crew",
+      "id": "ID",
+      "type": "Type",
+      "name": "Name",
+      "hours": "Hours",
+      "used": "Used",
+      "remaining": "Remaining",
+      "equipment": "Equipment",
+      "materials": "Materials",
+      "delivered": "Delivered",
+      "scheduled": "Scheduled",
+      "description": "Description",
+      "time": "Time",
+      "actual": "Actual",
+      "delays": "Delays",
+      "issue": "Issue",
+      "employee-accident": "Employee Accident",
+      "equipment-damage": "Equipment Damage",
+      "task": "Task",
+      "status": "Status"
+    }
+  }
+}
