@@ -1,5 +1,5 @@
 import {zodResolver} from '@hookform/resolvers/zod'
-import {Box, Stack, Typography} from '@mui/material'
+import {Box, Stack, Typography, useTheme} from '@mui/material'
 import {Link} from '@tanstack/react-router'
 import type {TFunction} from 'i18next'
 import {assign, get, omit, trim} from 'lodash-es'
@@ -10,7 +10,6 @@ import {useTranslation} from 'react-i18next'
 import {toast} from 'sonner'
 import * as z from 'zod'
 
-import Logo from '@/assets/illustrations/auth-logo.svg?react'
 import {
   AuthFormSubmitButton,
   FormCheckbox,
@@ -19,6 +18,8 @@ import {
 } from '@/components'
 import {useLoginUser} from '@/lib/data-provider/api/__generated'
 import {useAuthenticationStore} from '@/store/auth'
+import {LogoDolphin} from '../common/logoDolphin'
+import {LogoDolphinDark} from '../common/logoDolphinDark'
 
 const getLoginFormSchema = (t: TFunction<'auth'>) =>
   z.object({
@@ -51,23 +52,24 @@ interface LoginFormViewProps {
 const LoginFormView: React.FC<LoginFormViewProps> = ({isPending, onSubmit}) => {
   const {t} = useTranslation('auth')
   const form = useFormContext<LoginFormValues>()
+  const theme = useTheme() 
 
   return (
     <Stack component='form' gap={2} onSubmit={form.handleSubmit(onSubmit)}>
-      <Box
-        alignSelf='center'
-        component={Logo}
-        height={80}
-        mx='auto'
-        width={92}
-      />
-
+      
+     {
+       theme.palette.mode === 'light' ? (
+        <LogoDolphin widthText={70}  heightShape={40} heightText={20} />
+        ) : (
+        <LogoDolphinDark widthText={70}  heightShape={40} heightText={20}/>)
+     }
       <Typography
         color='primary.main'
         fontWeight='bold'
         mt={-1}
         textAlign='center'
         variant='h1'
+        marginTop={3}
       >
         {t('login-form.login', {defaultValue: 'Login'})}
       </Typography>
@@ -88,7 +90,6 @@ const LoginFormView: React.FC<LoginFormViewProps> = ({isPending, onSubmit}) => {
           type='password'
         />
       </Stack>
-
       <Stack alignItems='center' direction='row' justifyContent='space-between'>
         <FormCheckbox
           label={t('login-form.remember-me', {
@@ -105,7 +106,6 @@ const LoginFormView: React.FC<LoginFormViewProps> = ({isPending, onSubmit}) => {
           </Typography>
         </Link>
       </Stack>
-
       <AuthFormSubmitButton
         disabled={isPending}
         sx={{mt: -1}}
@@ -115,7 +115,6 @@ const LoginFormView: React.FC<LoginFormViewProps> = ({isPending, onSubmit}) => {
       >
         {t('login-form.login', {defaultValue: 'Login'})}
       </AuthFormSubmitButton>
-
       <Stack direction='row' justifyContent='center' spacing={0.5}>
         <Typography variant='t2'>
           {t('login-form.not-a-member', {
